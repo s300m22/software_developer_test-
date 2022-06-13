@@ -1,0 +1,61 @@
+[
+    {
+        "name":"C",
+        "type":"root",
+        "contents":[
+            { 
+                "name":"Documents",
+                "type":"directory",
+                "contents":[
+                    {
+                        "name":"Images",
+                        "type":"directory",
+                        "contents":[
+                            { "name":"Image1.jpg","type":"file","contents":null},
+                            { "name":"Image2.jpg","type":"file","contents":null},
+                            { "name":"Image3.png","type":"file","contents":null}
+                        ]
+                    },
+                    {
+                        "name":"Works",
+                        "type":"directory",
+                        "contents":[
+                            { "name":"Letter.doc","type":"file","contents":null},
+                            { 
+                                "name":"Accountant",
+                                "type":"directory",
+                                "contents":[
+                                    { "name":"Accounting.xls","type":"file","contents":null},
+                                    { "name":"AnnualReport.xls","type":"file","contents":null}                                
+                                ]
+                                
+                            }                        
+                        ]
+                    }
+                ]
+            },
+            { 
+                "name":"Program Files",
+                "type":"directory",
+                "contents":[
+                    {
+                        "name":"Skype",
+                        "type":"directory",
+                        "contents":[
+                            { "name":"Skype.exe","type":"file","contents":null},
+                            { "name":"Readme.txt","type":"file","contents":null}
+                        ]
+                    },
+                    {
+                        "name":"Mysql",
+                        "type":"directory",
+                        "contents":[
+                            { "name":"Mysql.exe","type":"file","contents":null},
+                            { "name":"Mysql.com","type":"file","contents":null}                        
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
